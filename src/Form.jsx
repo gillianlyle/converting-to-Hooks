@@ -15,7 +15,7 @@ class Form extends Component {
 
         return (
             <form onSubmit={this.handleSubmit}>
-                <label for="search">Search: </label>
+                <label htmlFor="search">Search: </label>
                 <input
                     type="search"
                     id="search"

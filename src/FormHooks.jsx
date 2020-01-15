@@ -13,7 +13,7 @@ const FormHooks = () => {
 
     return (
         <form onSubmit={handleSubmit}>
-            <label for="search1">Search: </label>
+            <label htmlFor="search1">Search: </label>
             <input
                 type="search"
                 id="search1"
