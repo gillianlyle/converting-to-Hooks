@@ -1,12 +1,10 @@
 import React, { Component } from 'react'
 
-export default class Form extends Component {
+class Form extends Component {
 
     state = { value: '' }
 
-    handleChange = event => {
-        this.setState({ value: event.target.value })
-    }
+    handleChange = event => { this.setState({ value: event.target.value }) }
 
     handleSubmit = event => {
         alert('You entered: ' + this.state.value)
@@ -29,3 +27,5 @@ export default class Form extends Component {
         )
     }
 }
+
+export default Form;
